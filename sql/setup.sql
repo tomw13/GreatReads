@@ -1,0 +1,3 @@
+CREATE USER tomw WITH PASSWORD 'password'
+
+CREATE DATABASE library WITH OWNER=tomw

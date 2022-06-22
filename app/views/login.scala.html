@@ -1,0 +1,20 @@
+@(login: Form[models.forms.UserInfo], createAcc: Form[models.forms.UserInfo])(implicit request: RequestHeader, messagesProvider: MessagesProvider, flash: Flash)
+
+@main("Login"){
+<h3>Log In</h3>
+  @helper.form(action = routes.UserController.login) {
+  @helper.CSRF.formField
+  @helper.inputText(login("username"), 'id -> "login-username", '_label -> "Username", '_info -> "")
+  @helper.inputPassword(login("password"), 'id -> "login-password", '_label -> "Password")
+  <button type="submit">Log In</button>
+  }
+
+<h3>Create Account</h3>
+  @helper.form(action = routes.UserController.createUser) {
+  @helper.CSRF.formField
+  @helper.inputText(createAcc("username"), 'id -> "create-username", '_label -> "Username")
+  @helper.inputPassword(createAcc("password"), 'id -> "create-password", '_label -> "Password")
+  <button type="submit">Create Account</button>
+  }
+
+}

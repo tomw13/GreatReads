@@ -1,0 +1,40 @@
+
+@(book: (Int, models.LibraryService.Book), reviewForm: Form[models.forms.Review], reviews: Seq[models.Classes.BookReview])(implicit request: RequestHeader, messagesProvider: MessagesProvider, flash: Flash)
+
+@main(book._2.title) {
+<h1>@book._2.title by @book._2.author</h1>
+<br>
+<form method="post" action="@routes.UserController.addToFavorites(book._1)">
+    @helper.CSRF.formField
+    <input type="submit" value="Add to Favorites!"/>
+</form>
+<br>
+<a href="@routes.UserController.logout">Log Out</a>
+<br>
+<a href="@routes.LibraryController.getBooks">Home</a>
+<br>
+<h2>Leave a Review!</h2>
+    @helper.form(action = routes.ReviewController.reviewBook(book._1)) {
+    @helper.CSRF.formField
+    @helper.inputRadioGroup(reviewForm("rating"), Seq("1" -> "⭐️", "2" -> "⭐⭐", "3" -> "⭐⭐⭐",
+        "4" -> "⭐⭐⭐⭐", "5" -> "⭐⭐⭐⭐⭐"),
+    'id -> "rating", '_label -> "Rating", '_help -> "Leave a rating out of 5")
+    @helper.textarea(reviewForm("review"), 'id -> "review", '_label -> "Review")
+    <button type="submit">Submit</button>
+    }
+<br>
+<h3>Reviews for @book._2.title</h3>
+<ul>
+    @for(review <- reviews) {
+    <li id="@review.user" class="book">
+        <a href="@routes.UserController.profile(Some(review.user))">@review.user</a>
+        <p>@review.review</p>
+        <p>@("⭐" * review.rating)</p>
+        <p>@review.dateToString</p>
+        <br>
+    </li>
+
+    }
+</ul>
+
+}

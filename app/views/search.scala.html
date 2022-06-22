@@ -1,0 +1,25 @@
+
+@(books: Seq[(Int, models.LibraryService.Book)])(implicit request: RequestHeader, messagesProvider: MessagesProvider, flash: Flash)
+
+@main("Search Results") {
+<h1>Search Results</h1>
+<br>
+<a href="@routes.UserController.logout">Log Out</a>
+<br>
+<a href="@routes.LibraryController.getBooks">Home</a>
+<br>
+<a href="@routes.UserController.profile(None)">Profile</a>
+<br>
+<ul>
+    @for(book <- books) {
+    <li id="@book._1" class="book">
+        <a href="@routes.LibraryController.goToBook(book._1)">@book._2.title</a>
+        <p>Author: @book._2.author</p>
+        <p>Genre: @book._2.genre</p>
+        <p>Year: @book._2.year</p>
+        <p>Type: @book._2.bookType</p>
+        <br>
+    </li>
+    }
+</ul>
+}

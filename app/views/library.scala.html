@@ -1,0 +1,54 @@
+
+@(books: Seq[(Int, models.LibraryService.Book)], newBookForm: Form[models.LibraryService.Book], searchForm: Form[models.forms.SearchQuery], currentUser: String)(implicit request: RequestHeader, messagesProvider: MessagesProvider, flash: Flash)
+
+@main("Library") {
+<h1>Welcome to the Library!</h1>
+<br>
+<a href="@routes.UserController.logout">Log Out</a>
+<br>
+<a href="@routes.UserController.profile(None)">Profile</a>
+<br>
+<h2>New Book</h2>
+@helper.form(action = routes.LibraryController.addBook) {
+    @helper.CSRF.formField
+    @helper.inputText(newBookForm("author"), 'id -> "authorname", '_label -> "Author")
+    @helper.inputText(newBookForm("title"), 'id -> "title", '_label -> "Title")
+    @helper.select(field = newBookForm("genre"),
+    options = books.map(pair => pair._2.genre).toSet[String].map(entry => entry -> entry).toSeq,
+    'id -> "genre", '_label -> "Genre")
+    @helper.inputText(newBookForm("year"), 'id -> "year", '_label -> "Year")
+    @helper.inputRadioGroup(newBookForm("bookType"), Seq("Fiction" -> "Fiction", "Non-Fiction" -> "Non-Fiction"),
+        'id -> "booktype", '_label -> "Book Type")
+    <button type="submit">Add</button>
+}
+<br>
+<h2>Search</h2>
+@helper.form(action = routes.LibraryController.search) {
+@helper.CSRF.formField
+@helper.inputRadioGroup(searchForm("param"), Seq("author" -> "Author", "title" -> "Title", "genre" -> "Genre"),
+'id -> "param", '_label -> "Search By", '_help -> "What do you want to search by?")
+@helper.inputText(searchForm("query"), 'id -> "query", '_label -> "Search For")
+<button type="submit">Search</button>
+}
+<br>
+<ul>
+    @for(book <- books) {
+    <li id="@book._1" class="book">
+        <a href="@routes.LibraryController.goToBook(book._1)">@book._2.title</a>
+        <p>Author: @book._2.author</p>
+        <p>Genre: @book._2.genre</p>
+        <p>Year: @book._2.year</p>
+        <p>Type: @book._2.bookType</p>
+        @if(currentUser == "admin") {
+            <form method="post" action="@routes.LibraryController.deleteBook">
+                @helper.CSRF.formField
+                <input type="hidden" name="index" value="@book._1" />
+                <input type="submit" value="Delete"/>
+            </form>
+        }
+        <br>
+    </li>
+
+    }
+</ul>
+}

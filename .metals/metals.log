@@ -1,0 +1,1078 @@
+2022.06.15 14:00:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/lsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.15 14:00:30 INFO  logging to file /Users/tomw/Documents/Scala/Playground/tom/.metals/metals.log
+2022.06.15 14:00:30 INFO  Started: Metals version 0.11.6 in workspace '/Users/tomw/Documents/Scala/Playground/tom' for client Visual Studio Code 1.68.0.
+2022.06.15 14:00:30 INFO  time: initialize in 0.33s
+2022.06.15 14:00:30 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.15 14:00:30 WARN  Build server is not auto-connectable.
+2022.06.15 14:00:36 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/39/84xbp4zd29d7342h4q93fnxw0000gn/T/metals16242255019437665341/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.15 14:00:36 WARN  no build target for: /Users/tomw/Documents/Scala/Playground/tom/project/project/metals.sbt
+2022.06.15 14:00:36 WARN  no build target for: /Users/tomw/Documents/Scala/Playground/tom/project/metals.sbt
+2022.06.15 14:00:36 INFO  skipping build import with status 'Started'
+2022.06.15 14:00:37 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.3.1)
+2022.06.15 14:00:38 INFO  [info] loading global plugins from /Users/tomw/.sbt/1.0/plugins
+2022.06.15 14:00:38 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.15 14:00:39 INFO  [info] loading settings for project tom-build-build-build from metals.sbt ...
+2022.06.15 14:00:39 INFO  [info] loading project definition from /Users/tomw/Documents/Scala/Playground/tom/project/project/project
+2022.06.15 14:00:39 INFO  [info] loading settings for project tom-build-build from metals.sbt ...
+2022.06.15 14:00:39 INFO  [info] loading project definition from /Users/tomw/Documents/Scala/Playground/tom/project/project
+2022.06.15 14:00:41 INFO  [success] Generated .bloop/tom-build-build.json
+2022.06.15 14:00:41 INFO  [success] Total time: 1 s, completed 15 Jun 2022, 14:00:41
+2022.06.15 14:00:41 INFO  [info] loading settings for project tom-build from metals.sbt,plugins.sbt ...
+2022.06.15 14:00:41 INFO  [info] loading project definition from /Users/tomw/Documents/Scala/Playground/tom/project
+2022.06.15 14:00:45 INFO  [success] Generated .bloop/tom-build.json
+2022.06.15 14:00:45 INFO  [success] Total time: 4 s, completed 15 Jun 2022, 14:00:45
+2022.06.15 14:00:48 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.15 14:00:48 INFO  [info] set current project to tom (in build file:/Users/tomw/Documents/Scala/Playground/tom/)
+2022.06.15 14:00:51 INFO  [success] Generated .bloop/root.json
+2022.06.15 14:00:51 INFO  [success] Generated .bloop/root-test.json
+2022.06.15 14:00:51 INFO  [success] Total time: 2 s, completed 15 Jun 2022, 14:00:51
+2022.06.15 14:00:51 INFO  time: ran 'sbt bloopInstall' in 15s
+2022.06.15 14:00:51 INFO  Attempting to connect to the build server...
+2022.06.15 14:00:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.15 14:00:56 INFO  Attempting to connect to the build server...
+2022.06.15 14:00:56 INFO  Attempting to connect to the build server...
+2022.06.15 14:00:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.15 14:00:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.15 14:00:56 INFO  time: Connected to build server in 4.87s
+2022.06.15 14:00:56 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.15 14:01:01 INFO  time: indexed workspace in 5.41s
+2022.06.15 14:02:36 INFO  compiling root (14 scala sources and 1 java source)
+2022.06.15 14:02:58 INFO  time: compiled root in 21s
+Jun 15, 2022 2:04:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+Jun 15, 2022 2:09:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+2022.06.15 14:10:51 INFO  compiling root (1 scala source)
+2022.06.15 14:10:53 INFO  time: compiled root in 2.65s
+2022.06.15 14:15:29 INFO  compiling root (1 scala source)
+2022.06.15 14:15:31 INFO  time: compiled root in 1.54s
+2022.06.15 14:16:55 INFO  compiling root-test (3 scala sources)
+2022.06.15 14:16:59 INFO  time: compiled root-test in 4.08s
+2022.06.15 14:19:42 INFO  compiling root-test (1 scala source)
+2022.06.15 14:19:45 INFO  time: compiled root-test in 3.17s
+Jun 15, 2022 2:23:40 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1043, count -1, length 4960
+Jun 15, 2022 2:23:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1028
+Jun 15, 2022 2:26:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1218
+Jun 15, 2022 2:27:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1245
+2022.06.15 14:29:49 INFO  compiling root-test (1 scala source)
+2022.06.15 14:29:52 INFO  time: compiled root-test in 3.25s
+2022.06.15 14:29:52 INFO  compiling root-test (1 scala source)
+2022.06.15 14:29:58 INFO  time: compiled root-test in 5.59s
+2022.06.15 14:29:58 INFO  compiling root-test (1 scala source)
+2022.06.15 14:29:59 INFO  time: compiled root-test in 1.24s
+2022.06.15 15:22:23 INFO  shutting down Metals
+2022.06.15 15:22:24 INFO  Shut down connection with build server.
+2022.06.15 15:22:24 INFO  Shut down connection with build server.
+2022.06.15 15:22:24 INFO  Shut down connection with build server.
+2022.06.17 13:50:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/lsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.17 13:50:44 INFO  logging to file /Users/tomw/Documents/Scala/Playground/tom/.metals/metals.log
+2022.06.17 13:50:44 INFO  Started: Metals version 0.11.6 in workspace '/Users/tomw/Documents/Scala/Playground/tom' for client Visual Studio Code 1.68.0.
+2022.06.17 13:50:44 INFO  time: initialize in 0.35s
+2022.06.17 13:50:44 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.17 13:50:44 INFO  Attempting to connect to the build server...
+2022.06.17 13:50:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.17 13:50:46 INFO  Attempting to connect to the build server...
+2022.06.17 13:50:46 INFO  Attempting to connect to the build server...
+2022.06.17 13:50:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.17 13:50:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.17 13:50:47 INFO  time: Connected to build server in 2.58s
+2022.06.17 13:50:47 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.17 13:50:50 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.17 13:50:50 INFO  time: code lens generation in 2.88s
+Jun 17, 2022 1:50:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jun 17, 2022 1:50:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2022.06.17 13:50:50 INFO  time: Imported build in 0.22s
+2022.06.17 13:50:51 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala. Using presentation compiler with project's scala-library version: 3.1.2
+Jun 17, 2022 1:50:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2022.06.17 13:50:53 INFO  time: code lens generation in 5.7s
+2022.06.17 13:50:53 INFO  time: code lens generation in 5.7s
+2022.06.17 13:50:53 INFO  time: code lens generation in 5.7s
+2022.06.17 13:50:53 INFO  time: code lens generation in 1.02s
+2022.06.17 13:50:53 INFO  time: code lens generation in 1.02s
+2022.06.17 13:50:53 INFO  time: code lens generation in 2.86s
+2022.06.17 13:50:53 INFO  time: code lens generation in 2.86s
+2022.06.17 13:50:56 INFO  time: indexed workspace in 5.54s
+2022.06.17 13:50:56 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:51:01 INFO  time: compiled root in 5.29s
+2022.06.17 13:51:01 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:51:02 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/39/84xbp4zd29d7342h4q93fnxw0000gn/T/metals4705051401044297461/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.17 13:51:04 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.3.1)
+2022.06.17 13:51:06 INFO  [info] loading global plugins from /Users/tomw/.sbt/1.0/plugins
+2022.06.17 13:51:06 INFO  time: compiled root in 4.66s
+2022.06.17 13:51:06 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:51:07 INFO  [info] loading settings for project tom-build-build-build from metals.sbt ...
+2022.06.17 13:51:07 INFO  [info] loading project definition from /Users/tomw/Documents/Scala/Playground/tom/project/project/project
+2022.06.17 13:51:08 INFO  [info] loading settings for project tom-build-build from metals.sbt ...
+2022.06.17 13:51:08 INFO  [info] loading project definition from /Users/tomw/Documents/Scala/Playground/tom/project/project
+2022.06.17 13:51:10 INFO  time: compiled root in 3.9s
+2022.06.17 13:51:10 INFO  [success] Generated .bloop/tom-build-build.json
+2022.06.17 13:51:10 INFO  [success] Total time: 1 s, completed 17 Jun 2022, 13:51:10
+2022.06.17 13:51:10 INFO  [info] loading settings for project tom-build from metals.sbt,plugins.sbt ...
+2022.06.17 13:51:10 INFO  [info] loading project definition from /Users/tomw/Documents/Scala/Playground/tom/project
+2022.06.17 13:51:13 INFO  [success] Generated .bloop/tom-build.json
+2022.06.17 13:51:13 INFO  [success] Total time: 3 s, completed 17 Jun 2022, 13:51:14
+2022.06.17 13:51:15 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:51:20 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.17 13:51:20 INFO  [info] set current project to tom (in build file:/Users/tomw/Documents/Scala/Playground/tom/)
+2022.06.17 13:51:21 INFO  [success] Generated .bloop/root.json
+2022.06.17 13:51:21 INFO  [success] Generated .bloop/root-test.json
+2022.06.17 13:51:21 INFO  [success] Total time: 1 s, completed 17 Jun 2022, 13:51:21
+2022.06.17 13:51:22 INFO  time: ran 'sbt bloopInstall' in 19s
+2022.06.17 13:51:22 INFO  Disconnecting from Bloop session...
+2022.06.17 13:51:22 INFO  Shut down connection with build server.
+2022.06.17 13:51:22 INFO  Shut down connection with build server.
+2022.06.17 13:51:22 INFO  Shut down connection with build server.
+2022.06.17 13:51:22 INFO  Attempting to connect to the build server...
+2022.06.17 13:51:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.17 13:51:22 INFO  Attempting to connect to the build server...
+2022.06.17 13:51:22 INFO  Attempting to connect to the build server...
+2022.06.17 13:51:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.17 13:51:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.17 13:51:22 INFO  time: Connected to build server in 0.2s
+2022.06.17 13:51:22 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.17 13:51:22 INFO  time: Imported build in 0.2s
+2022.06.17 13:51:24 INFO  time: indexed workspace in 2.21s
+2022.06.17 13:51:25 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:51:29 INFO  time: compiled root in 4.08s
+2022.06.17 13:51:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/models/LibraryDB.scala
+2022.06.17 13:51:43 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:51:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/models/LibraryDB.scala
+2022.06.17 13:51:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/models/LibraryDB.scala
+2022.06.17 13:51:45 INFO  time: compiled root in 2.21s
+2022.06.17 13:51:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/models/LibraryDB.scala
+2022.06.17 13:51:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/models/LibraryDB.scala
+2022.06.17 13:51:54 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/controllers/APIController.scala
+2022.06.17 13:51:54 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/controllers/APIController.scala
+2022.06.17 13:54:47 INFO  compiling root (20 scala sources and 1 java source)
+2022.06.17 13:55:03 INFO  time: compiled root in 15s
+Jun 17, 2022 2:05:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 75
+2022.06.17 14:05:03 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:05:06 INFO  time: compiled root-test in 2.93s
+2022.06.17 14:05:07 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:05:07 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:05:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:06:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:05 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:07:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:09:12 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:09:14 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:10:01 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:15:17 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:15:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:18:42 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:18:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:18:59 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:08 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:22 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:22 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:22 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:22 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:22 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:20:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:24:15 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:25:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:25:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:25:54 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:25:54 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:25:54 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:25:54 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:25:56 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:04 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:04 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:05 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:26:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 389
+2022.06.17 14:26:06 INFO  time: compiled root-test in 11s
+2022.06.17 14:26:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:08 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 406
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 407
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 409
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 411
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 414
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 418
+Jun 17, 2022 2:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 420
+2022.06.17 14:26:10 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:12 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:37 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:37 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:40 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:41 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:41 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:42 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:43 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:46 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:26:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:51 INFO  time: compiled root-test in 4.76s
+2022.06.17 14:26:51 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:51 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:51 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:53 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:26:56 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:05 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:05 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:05 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:07 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:06 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:08 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:08 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:08 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:15 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:15 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:15 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:17 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:27:34 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:27:45 INFO  time: compiled root-test in 10s
+2022.06.17 14:27:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:55 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:55 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:56 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:28:58 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:11 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:29:13 INFO  time: compiled root-test in 2.22s
+2022.06.17 14:29:16 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:16 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:17 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:40 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:41 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:41 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:41 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:41 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:44 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:29:58 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:30:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:30:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:30:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:30:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:30:46 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:30:47 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:30:52 INFO  time: compiled root-test in 4.33s
+2022.06.17 14:30:54 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:31:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:32:02 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:32:24 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:32:25 INFO  time: compiled root-test in 1.59s
+2022.06.17 14:32:26 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:26 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:26 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:27 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:27 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:27 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:28 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:27 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:28 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:27 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:28 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:33:29 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:33:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.contribute(OverrideCompletions.scala:77)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:418)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:499)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+2022.06.17 14:33:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:32 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:43 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:33:45 INFO  time: compiled root-test in 1.31s
+2022.06.17 14:33:45 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:33:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:13 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:17 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:23 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:26 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:26 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:26 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:28 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:34:34 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:34:46 INFO  time: compiled root-test in 12s
+2022.06.17 14:34:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:12 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:18 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:18 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:18 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:18 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:18 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:18 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:19 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:20 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:22 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:24 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:24 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:24 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:24 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:25 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:35:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:35:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:34 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:35 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:37 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:37 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:37 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:37 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:38 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:35:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:47 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:48 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:49 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:50 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:35:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:52 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:35:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:35:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:55 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:55 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:55 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:56 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:56 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:56 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:57 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:35:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:35:59 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:59 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:59 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:35:59 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:00 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:00 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:00 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:00 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:36:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:36:01 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:01 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:01 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:36:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:36:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:03 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:36:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:36:04 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:04 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:04 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:36:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+Jun 17, 2022 2:36:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions.scala$meta$internal$pc$completions$OverrideCompletions$$getMembers(OverrideCompletions.scala:178)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAll(OverrideCompletions.scala:386)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllFor$1(OverrideCompletions.scala:337)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt(OverrideCompletions.scala:354)
+	at scala.meta.internal.pc.completions.OverrideCompletions.implementAllAt$(OverrideCompletions.scala:326)
+	at scala.meta.internal.pc.MetalsGlobal.implementAllAt(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.implementAll(CompletionProvider.scala:533)
+
+2022.06.17 14:36:14 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:36:20 INFO  time: compiled root-test in 5.8s
+2022.06.17 14:36:21 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:29 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:30 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+Jun 17, 2022 2:36:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1221
+2022.06.17 14:36:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:31 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:32 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:32 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:33 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:36 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:39 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:40 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/test/controllers/APIControllerSpec.scala
+2022.06.17 14:36:40 INFO  compiling root-test (3 scala sources)
+2022.06.17 14:36:51 INFO  time: compiled root-test in 11s
+2022.06.17 14:51:35 INFO  shutting down Metals
+2022.06.17 14:51:35 INFO  Shut down connection with build server.
+2022.06.17 14:51:35 INFO  Shut down connection with build server.
+2022.06.17 14:51:35 INFO  Shut down connection with build server.
+2022.06.20 13:48:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/lsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.20 13:48:09 INFO  logging to file /Users/tomw/Documents/Scala/Playground/tom/.metals/metals.log
+2022.06.20 13:48:09 INFO  Started: Metals version 0.11.6 in workspace '/Users/tomw/Documents/Scala/Playground/tom' for client Visual Studio Code 1.68.1.
+2022.06.20 13:48:10 INFO  time: initialize in 0.31s
+2022.06.20 13:48:10 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.20 13:48:09 INFO  Attempting to connect to the build server...
+2022.06.20 13:48:10 INFO  skipping build import with status 'Installed'
+2022.06.20 13:48:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.20 13:48:11 INFO  Attempting to connect to the build server...
+2022.06.20 13:48:11 INFO  Attempting to connect to the build server...
+2022.06.20 13:48:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.20 13:48:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.20 13:48:11 INFO  time: Connected to build server in 0.73s
+2022.06.20 13:48:11 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.20 13:48:11 INFO  time: Imported build in 0.14s
+Jun 20, 2022 1:48:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jun 20, 2022 1:48:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2022.06.20 13:48:14 INFO  time: indexed workspace in 3.38s
+2022.06.20 13:48:15 INFO  compiling root (26 scala sources and 1 java source)
+2022.06.20 13:48:23 INFO  compiling root-test (3 scala sources)
+2022.06.20 13:48:23 INFO  time: compiled root in 8.53s
+2022.06.20 13:48:23 INFO  time: compiled root-test in 0.89s
+2022.06.20 15:12:50 INFO  shutting down Metals
+2022.06.20 15:12:50 INFO  Shut down connection with build server.
+2022.06.20 15:12:50 INFO  Shut down connection with build server.
+2022.06.20 15:12:50 INFO  Shut down connection with build server.
+2022.06.21 09:50:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/lsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.21 09:50:42 INFO  logging to file /Users/tomw/Documents/Scala/Playground/tom/.metals/metals.log
+2022.06.21 09:50:42 INFO  Started: Metals version 0.11.6 in workspace '/Users/tomw/Documents/Scala/Playground/tom' for client Visual Studio Code 1.68.1.
+2022.06.21 09:50:42 INFO  time: initialize in 0.54s
+2022.06.21 09:50:42 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.21 09:50:43 INFO  Attempting to connect to the build server...
+2022.06.21 09:50:43 INFO  skipping build import with status 'Installed'
+2022.06.21 09:50:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 09:50:45 INFO  Attempting to connect to the build server...
+2022.06.21 09:50:45 INFO  Attempting to connect to the build server...
+2022.06.21 09:50:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 09:50:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 09:50:45 INFO  time: Connected to build server in 2.8s
+2022.06.21 09:50:45 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.21 09:50:48 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/test/models/LibrarySpec.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.21 09:50:48 INFO  time: code lens generation in 3.09s
+2022.06.21 09:50:48 INFO  time: Imported build in 0.42s
+2022.06.21 09:50:49 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/app/models/DBs/ReviewsDB.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.21 09:50:50 INFO  time: code lens generation in 4.22s
+2022.06.21 09:50:50 INFO  time: code lens generation in 4.23s
+2022.06.21 09:50:51 INFO  time: code lens generation in 4.98s
+2022.06.21 09:50:51 INFO  time: code lens generation in 4.98s
+2022.06.21 09:50:51 INFO  time: code lens generation in 5.53s
+2022.06.21 09:50:51 INFO  time: code lens generation in 5.65s
+2022.06.21 09:50:51 INFO  time: code lens generation in 5.65s
+2022.06.21 09:50:51 INFO  time: code lens generation in 5.65s
+2022.06.21 09:50:51 INFO  time: code lens generation in 5.53s
+2022.06.21 09:50:54 INFO  time: indexed workspace in 5.7s
+2022.06.21 09:50:55 INFO  compiling root (11 scala sources and 1 java source)
+Jun 21, 2022 9:50:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2022.06.21 09:51:18 INFO  time: compiled root in 23s
+2022.06.21 09:51:18 INFO  compiling root (5 scala sources)
+2022.06.21 09:51:28 INFO  time: compiled root in 10s
+2022.06.21 09:51:29 INFO  compiling root (1 scala source)
+2022.06.21 09:51:32 INFO  time: compiled root in 3.05s
+2022.06.21 09:57:08 INFO  compiling root (1 scala source)
+2022.06.21 09:57:11 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/controllers/ReviewController.scala
+2022.06.21 09:57:13 INFO  time: compiled root in 4.4s
+2022.06.21 09:58:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/controllers/ReviewController.scala
+2022.06.21 09:58:09 WARN  Could not load snapshot text for /Users/tomw/Documents/Scala/Playground/tom/app/controllers/ReviewController.scala
+2022.06.21 09:58:10 INFO  compiling root (1 scala source)
+2022.06.21 09:58:13 INFO  time: compiled root in 2.35s
+Jun 21, 2022 10:07:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 162
+2022.06.21 10:08:21 INFO  compiling root (1 scala source)
+Jun 21, 2022 10:08:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Jun 21, 2022 10:08:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 188
+2022.06.21 10:08:51 INFO  time: compiled root in 30s
+Jun 21, 2022 10:11:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+2022.06.21 10:11:29 INFO  compiling root (1 scala source)
+2022.06.21 10:11:35 INFO  time: compiled root in 5.33s
+Jun 21, 2022 10:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 782
+2022.06.21 10:18:17 INFO  compiling root (1 scala source)
+2022.06.21 10:18:27 INFO  time: compiled root in 10s
+Jun 21, 2022 10:21:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 940
+Jun 21, 2022 10:26:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1114
+Jun 21, 2022 10:27:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1259
+2022.06.21 10:29:11 INFO  compiling root (1 scala source)
+2022.06.21 10:29:14 INFO  time: compiled root in 3.08s
+2022.06.21 11:11:08 INFO  shutting down Metals
+2022.06.21 11:11:08 INFO  Shut down connection with build server.
+2022.06.21 11:11:08 INFO  Shut down connection with build server.
+2022.06.21 11:11:08 INFO  Shut down connection with build server.
+2022.06.22 13:56:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/lsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.22 13:56:04 INFO  logging to file /Users/tomw/Documents/Scala/Playground/tom/.metals/metals.log
+2022.06.22 13:56:04 INFO  Started: Metals version 0.11.6 in workspace '/Users/tomw/Documents/Scala/Playground/tom' for client Visual Studio Code 1.68.1.
+2022.06.22 13:56:04 INFO  time: initialize in 0.38s
+2022.06.22 13:56:04 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.22 13:56:04 INFO  Attempting to connect to the build server...
+2022.06.22 13:56:04 INFO  skipping build import with status 'Installed'
+2022.06.22 13:56:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 13:56:06 INFO  Attempting to connect to the build server...
+2022.06.22 13:56:06 INFO  Attempting to connect to the build server...
+2022.06.22 13:56:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 13:56:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomw/Documents/Scala/Playground/tom/project/.metals/bsp.trace.json or /Users/tomw/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 13:56:06 INFO  time: Connected to build server in 1.78s
+2022.06.22 13:56:06 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.22 13:56:08 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/test/models/LibrarySpec.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 13:56:08 INFO  time: code lens generation in 1.8s
+2022.06.22 13:56:08 INFO  time: Imported build in 0.46s
+2022.06.22 13:56:09 INFO  no build target found for /Users/tomw/Documents/Scala/Playground/tom/test/models/LibrarySpec.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 13:56:09 INFO  time: code lens generation in 3.46s
+2022.06.22 13:56:10 INFO  time: code lens generation in 3.48s
+2022.06.22 13:56:10 INFO  time: code lens generation in 3.46s
+2022.06.22 13:56:12 INFO  time: indexed workspace in 3.45s
+2022.06.22 13:56:13 INFO  compiling root (30 scala sources and 1 java source)
+2022.06.22 13:56:27 INFO  time: compiled root in 13s
+2022.06.22 13:56:27 INFO  compiling root (7 scala sources)
+2022.06.22 13:56:28 INFO  time: compiled root in 1.79s
+2022.06.22 13:56:28 INFO  compiling root (4 scala sources)
+2022.06.22 13:56:28 INFO  time: compiled root in 0.7s
+2022.06.22 14:07:29 INFO  compiling root (1 scala source)
+2022.06.22 14:07:34 INFO  time: compiled root in 4.92s
+Jun 22, 2022 2:07:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 421
+Jun 22, 2022 2:11:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 497
+2022.06.22 14:17:06 INFO  compiling root (1 scala source)
+2022.06.22 14:17:09 INFO  time: compiled root in 2.62s
+Jun 22, 2022 2:20:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 927
+2022.06.22 14:54:13 INFO  shutting down Metals
+2022.06.22 14:54:13 INFO  Shut down connection with build server.
+2022.06.22 14:54:13 INFO  Shut down connection with build server.
+2022.06.22 14:54:13 INFO  Shut down connection with build server.
